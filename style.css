@@ -1,0 +1,144 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(109, 143, 152, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.land {
+  height: 90%;
+  width: 85%;
+  background-color: rgba(217,221,224,255);
+  padding: 1% 1%;
+  /* border-radius: 15px; */
+
+  /* background-image: url(WhatsApp\ Image\ 2024-12-13\ at\ 23.51.29_a742218a.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ll {
+  height: 100%;
+  width: 100%;
+  /* background-color: rgba(206,200,200,255); */
+  border-radius: 15px;
+  padding: 2% 2%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo p {
+  color: rgba(38, 54, 57, 255);
+}
+
+.gola {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(38, 54, 57, 255);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.anchor a {
+  text-decoration: none;
+  color: rgba(38, 54, 57, 255);
+  margin-left: 45px;
+}
+
+.button button {
+  height: 35px;
+  width: 120px;
+  color: rgba(38, 54, 57, 255);
+  border-radius: 40px;
+  border: none;
+}
+
+.content {
+  height: 90%;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  margin-top: 40px;
+}
+.contl {
+  height: 90%;
+  width: 40%;
+  /* background-color: red; */
+  margin-left: 9%;
+  color: white;
+  position: relative;
+  margin-top: 15px;
+}
+.contl h1 {
+    color: rgba(32,57,61,255);
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.contl p {
+    color: grey;
+    font-size: 15px;
+}
+
+.lamba {
+    position: absolute;
+    height: 70px;
+    width: 145%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 54px;
+    padding: 2% 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.lamba button {
+    width: 150px;
+    border-radius: 40px ;
+    border: none;
+    background-color: rgba(50,93,97,255);
+    color: white;
+}
+.input {
+    height: 60px;
+    width: 200px;
+    color: black;
+}
+.contr {
+  height: 103.6%;
+  width: 60%;
+  background-image: url(Screenshot\ 2024-12-14\ 002419.jpg);
+  background-color: yellow;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
